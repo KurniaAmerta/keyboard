@@ -1,0 +1,35 @@
+2022-12-31T22:47:28+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_63b0bc001b65bhttplocalhostkeyboardwordpresswp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/keyboard\/wordpress\/wp-admin\/"}
+ ajax: DOING_AJAX
+2022-12-31T22:47:33+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5012 milliseconds with 0 bytes received
+
+2022-12-31T22:47:38+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5013 milliseconds with 0 bytes received
+
+2022-12-31T22:47:38+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+X-Tt-Logid: 20221231224738B4EB325F610E024CC400,20221231224738B4EB325F610E024CC400
+x-tt-trace-host: 019180cf128ca2a8299a94b88f4cfe0fd9d7b166e6f7ce593327dbed766b341d4d73856f2f845a699d97e162a52b0f93a49ecc84a589d20e5897111d9dc7d39104ae8ad0f172e2876a8e50ff0091d92d1cfd693827957e0b340e87f83b17fb24b30ff5939c5590310f77b46c8896404623
+Content-Encoding: gzip
+Content-Length: 214
+X-Origin-Response-Time: 96,23.64.122.61
+X-Akamai-Request-ID: e29c80ca.c8f64739
+Date: Sat, 31 Dec 2022 22:47:39 GMT
+X-Cache: TCP_MISS from a23-219-204-154.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-64-122-61.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=24, origin; dur=95
+Server-Timing: inner; dur=88
+X-Parent-Response-Time: 117,23.219.204.154
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"http:\/\/localhost\/keyboard\/wordpress\/wp-admin\/","app_secret":"f6be2d49659999015ee98e2e81c17ce2cb846b9f","external_data_key":"9787e597-ea23-4a8f-a28f-2e1d97faec90","app_id":"7183448119818846209"}}
+
